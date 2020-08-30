@@ -6,6 +6,8 @@
     border-radius: 0.25em;
 }
 .cardBack{
+    padding-left: 1em;
+    padding-top: 1em;
     width: 14em;
     height: 20em;
     background-color: #82c7ff;
