@@ -1,6 +1,7 @@
 .ESPcard {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    background-color: aquamarine;
-    border-radius: 5px; /* 5px rounded corners */
+    width: 5em;
+    height: 7em;
+    background-color: #ffffff;
+    box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
+    border-radius: 0.25em;
   }
