@@ -5,3 +5,9 @@
     box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
     border-radius: 0.25em;
 }
+.cardBack{
+    width: 14em;
+    height: 20em;
+    background-color: #82c7ff;
+    border-radius: 0.25em;
+}
