@@ -6,5 +6,5 @@ for(let i = 0; i<types.length;i++){
     }
 }
 $('#next').click(function(){
-
+    window.alert("clicked!");
 })
