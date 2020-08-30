@@ -5,3 +5,6 @@ for(let i = 0; i<types.length;i++){
         deck.append(types[i]);
     }
 }
+$('#next').click(function(){
+
+})
