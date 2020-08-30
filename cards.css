@@ -1,7 +1,7 @@
 .ESPcard {
-    width: 5em;
-    height: 7em;
+    width: 15em;
+    height: 21em;
     background-color: #ffffff;
     box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
     border-radius: 0.25em;
-  }
+}
