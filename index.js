@@ -114,7 +114,7 @@ function finished(){
     }
     else{
         $('body').css('background-color','darkgrey');
-        $('#result').html('Unfortunately you are just an ordinary person.\n Would you like to try again?');
+        $('#result').html('Unfortunately you are just an ordinary person.');
     }
     
   
