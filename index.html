@@ -11,12 +11,35 @@
    </head>
    <body>
       <div class="container-sm">
-         <button type="button" class="btn btn-secondary" id='begin'>Begin</button>
-         <div id="card" class="hidden ESPcard">
-            <div id="insideCard"class="hidden cardBack"></div>
+        <div>
+          <h1 class="display-3 text-center">ESP Test</h1>
+          <p class="text-center text-muted">Guess the shape on the back of the card by<br> selecting one of the buttons below.</p>
+        </div>
+        <div class="align-item-center">
+          <div id="card" class=" align-item-center ESPcard">
+            <div id="insideCard" class="cardBack"></div>
          </div>
-         <p id="result" class="font-weight-bold text-wrap"></p>
-         <button type="button" class="hidden btn btn-secondary" id='next'>Next</button>  
+        </div>
+        <br>
+          <div id="cardButtons" class="text-center">
+            <button id="0" type="button" class="btn btn-outline-dark" onclick="buttonClick(0)">&#9675;</button>
+  
+            <button id="1" type="button"  class="btn btn-outline-dark" onclick="buttonClick(1)">&#10133;</button>
+
+            <button id="2"  type="button" class="btn btn-outline-dark" onclick="buttonClick(2)">&#8967;&#8967;&#8967;</button>
+            <button  id="3" type="button" class="btn btn-outline-dark" onclick="buttonClick(3)">&#9633;</button>
+
+            <button  id="4" type="button" class="btn btn-outline-dark" onclick="buttonClick(4)">&#9734;</button>
+          
+          </div>
+          <div class="text-center">
+            <button  id="next" type="button" class="hidden btn btn-outline-info" onclick="next()">Next</button>
+          </div>
+          <br>
+        
+          <p id="result" class="font-weight-bold text-wrap text-center"></p> 
+        <audio id="wow" src="wowc.mp3"></audio>
+
       </div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
       <script src="index.js"></script>
